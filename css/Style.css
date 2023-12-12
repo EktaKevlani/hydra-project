@@ -1,0 +1,282 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+     background:   rgba(48, 44, 66, 1)
+  
+}
+ul li{
+    color: white;
+}
+.collapse .listnav .listitem .list{
+    color: white;
+    
+}
+.navv{
+    display: flex;
+    justify-content: space-between; 
+}
+.navv > .collapse > .listnav{
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.join{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+   
+    
+}
+.join > .contactus{
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 1rem;
+    color: white;
+}
+.join > .joinhydra{
+    border: none;
+    color: black;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+
+}
+.join .joinhydra a{
+    color: black;
+}
+:root{
+   --color:rgba(129, 118, 175, 1);
+}
+.dive{
+    color: white;
+}
+.ssss{
+   color:var(--textcolor);
+}
+.lorem{
+    color: rgba(255, 255, 255, 1);
+}
+.build{
+    display: flex;
+    font-weight: 600;
+    text-align: center;  
+    align-items: center;
+    color: black;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+.contactsection{
+    border-radius: 50px;
+    width: 96%;
+ 
+     background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) ;
+}
+.content{
+    color: white;
+    border-right: 1px dotted gray;
+}
+.union{
+    font-size: 0.8rem;
+}
+.content3{
+    color: white;
+}
+.intro{
+    color: white;
+}
+.vr{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+}
+.vite{
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.9rem;
+}
+.waves{
+    background-image: url(image/Vector\ 7.png),url(image/Vector\ 8\ \(1\).png);
+    background-size: 100%;
+    width: 100%;
+   
+    background-repeat: no-repeat;
+    background-position: center,bottom;
+   
+  
+}
+.mask{
+    filter: drop-shadow(10px 10px 10px rgb(10, 9, 9));
+}
+.hydravr{
+    color: white;
+}
+.abb{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.eget{
+    font-size: 0.9rem;
+}
+.build2{
+    color: black;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    font-size: 0.8rem;
+    font-weight: 500;
+
+}
+.pexal{
+    width: 50%;
+    border-radius: 50%;
+   
+}
+.card{
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    color: white;
+    border-radius: 25px;
+}
+.card-text{
+    font-size: 0.9rem;
+}
+.card-title{
+   text-decoration: underline rgba(192, 183, 232, 0.33);
+}
+.rounded{
+    background-image: url(image/pixelround.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.tech{
+    color: white;
+}
+.how{
+    color: white;
+}
+.with{
+    color: white;
+    font-weight: 200;
+}
+.numberrow{
+    background-image: url(image/Vector\ 15.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: inherit;
+}
+.outercircle{
+    width: 180px; height: 180px;
+    border-radius: 50%;
+    background-color: black;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: space-around;
+   
+}
+.innercircle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #8176AF;
+    font-size: 5rem;
+    text-align: center;
+    margin: auto;
+    
+}
+.des{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.background{
+    border-radius: 50px;
+    width: 100%;
+    height: 600px;
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    margin-top: 150px;
+
+}
+.lets{
+    font-size: 2rem;
+    font-weight: 200;
+   
+}
+.namef{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 70%;
+   margin-left:20% ;
+   line-height: 2.5;
+}
+.lastn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    width:70%;
+   line-height: 2.5;
+}
+.namef::placeholder{
+    padding-left: 10%;
+}
+.lastn::placeholder{
+    padding-left: 10%;
+}
+.Subject{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    width:75%;
+   line-height: 2.5;
+   margin-left: 10%;
+}
+.Subject::placeholder{
+    padding-left: 5%;
+}
+.tellus{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 10%;
+    width: 75%;
+
+}
+.tellus::placeholder{
+    padding-left: 5%;
+    
+}
+.send{
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: none;
+    border-radius: 20px;
+
+}
+.footer{
+   
+    background-image: url(image/Vector\ 19.png),url(image/Vector\ 18.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top,bottom;
+    height: 200px;
+  
+}
+.footerlist{
+    list-style: none;
+    line-height: 2.2;
+    font-weight: 500;
+    color: white;
+}
+.social{
+    color: white;
+}
+.socailicon{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+}
+.copyright{
+    color: white;
+}
